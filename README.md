@@ -14,7 +14,7 @@ Prerequisites
 - Python 3: `brew install python3` (or `brew update && brew upgrade python3`)
 - Access to [arangodb/enterprise](https://github.com/arangodb/enterprise)
 
-Let's get started. Check out `onboard/img/` for visual representations of each step below.
+Let's get started. Check out `./img/` for visual representations of each step below.
 
 1. `git clone https://github.com/arangodb/arangodb`
 2. `cd arangodb`
@@ -23,7 +23,7 @@ Let's get started. Check out `onboard/img/` for visual representations of each s
    1. Follow through the setup Wizard
    2. **Note:** Make sure to click on the `Use CMakeLists.txt` checkbox during one of the Wizard steps
 5. From the CLion preferences menu (⌘ ,):
-   1. Navigate to "Build, Execution, Deployment" --> "CMake"
+   1. Navigate to `Build, Execution, Deployment` --> `CMake`
    2. Disable the Debug profile
    3. Create a new profile (⌘N) with the following values:
       1. Name: `RelWithDebInfo`
@@ -52,5 +52,6 @@ Let's get started. Check out `onboard/img/` for visual representations of each s
        2. Target: `arangodb`
        3. Executable: `<you_path_to>/arangodb/build/bin/arangod`
        4. Program arguments: `myDatabaseDirectory`
-12. [Run the ArangoDB Web Interface](https://github.com/arangodb/arangodb/blob/devel/README_maintainers.md#building-the-web-interface)
 
+
+**At this point, you should be able to access `localhost:8529`.**
