@@ -80,11 +80,11 @@ Run ArangoDB via CLion by setting up the `arangodb` configuration:
 
 <img src="./img/11.png"  width="500"/>
 
-1. Click on the top toolbar dropdown --> "Edit Configurations"
+1. Click on the top toolbar dropdown --> `Edit Configurations`
 2. Edit the `arangodb` configuration with the following values:
    1. Name: `arangodb`
    2. Target: `arangodb`
-   3. Executable: `<you_path_to>/arangodb/build/bin/arangod`
+   3. Executable: `<your_path_to>/arangodb/build/bin/arangod`
    4. Program arguments: `myDatabaseDirectory`
 
 
