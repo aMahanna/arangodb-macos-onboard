@@ -1,3 +1,5 @@
+Available via [PDF](https://github.com/aMahanna/arangodb-macos-onboard/blob/main/arangodb-macos-onboard.pdf) (Latest)
+
 ### MacOS Developer Onboard
 
 Objective: Establish an ArangoDB dev environment with CLion.
