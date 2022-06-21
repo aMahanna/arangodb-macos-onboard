@@ -44,7 +44,7 @@ From the CLion preferences menu (⌘ ,):
    1. Name: `RelWithDebInfo`
    2. Build type: `RelWithDebInfo`
    3. Toolchain: `Use: Default`
-   4. CMake options: ```-DCMAKE_OSX_DEPLOYMENT_TARGET=<YOUR MACOS BIG SUR VERSION HERE> -DCMAKE_BUILD_TYPE=RelWithDebInfo -DUSE_MAINTAINER_MODE=On -DUSE_FAILURE_TESTS=On -DUSE_ENTERPRISE=On -DUSE_JEMALLOC=Off -DOPENSSL_USE_STATIC_LIBS=On -DCMAKE_LIBRARY_PATH=/usr/local/Cellar/openssl@1.1/1.1.1l/lib -DOPENSSL_ROOT_DIR=/usr/local/Cellar/openssl@1.1/1.1.1l -DUSE_CCACHE=Off```
+   4. CMake options: ```-DCMAKE_OSX_DEPLOYMENT_TARGET=<YOUR MACOS BIG SUR VERSION HERE> -DCMAKE_BUILD_TYPE=RelWithDebInfo -DUSE_MAINTAINER_MODE=On -DUSE_FAILURE_TESTS=On -DUSE_ENTERPRISE=<On or Off, depending if you have access> -DUSE_JEMALLOC=Off -DOPENSSL_USE_STATIC_LIBS=On -DCMAKE_LIBRARY_PATH=/usr/local/Cellar/<YOUR OPENSSL 1.1 PATH>/lib -DOPENSSL_ROOT_DIR=/usr/local/Cellar/<YOUR OPENSSL 1.1 PATH> -DUSE_CCACHE=Off```
    5. Build directory: `build`
    6. Build options: `-j 12`
 4. **Note:** Make sure to click on `Apply` or `OK` before exiting the Preferences menu
